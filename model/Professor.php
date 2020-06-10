@@ -39,4 +39,12 @@ class People {
         return $this-> $matricula;
     }
 
+    public function __($id, $name, $idade, $matricula)
+        {
+        $this->setId($id);
+        $this->setNome($name);
+        $this->setIdade($idade); 
+        $this->setMatricula($matricula);
+        }
+
 }
