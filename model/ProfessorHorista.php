@@ -25,5 +25,7 @@ class Horista extends People {
         $this->setValorHora($valorHora);
         $this->setHorasTrabalhadas($horasTrabalhadas);
     }
+
+    public function 
     
 }
