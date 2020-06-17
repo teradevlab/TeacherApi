@@ -16,7 +16,7 @@
     <form>
       <input type="text" id="login" class="fadeIn second" name="usuário" placeholder="usuário">
       <input type="text" id="password" class="fadeIn third" name="senha" placeholder="senha">
-      <input type="submit" class="fadeIn fourth" value="Entrar">
+      <a href="../view/index.php" input type="submit" class="fadeIn fourth"> Entrar </a>
     </form>
 
     <!-- Remind Passowrd -->

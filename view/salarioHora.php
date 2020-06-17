@@ -9,29 +9,13 @@
     <title>TeacherAPI</title>
 </head>
 <body>
-<form class="cadastro">
-<div class="form-check">
-<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-<label class="form-check-label" for="exampleRadios1">
-Professor Horista
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-<label class="form-check-label" for="exampleRadios2">
-Professor Assalariado
-</label>
-</div>
+<form class="cadastro">            
 <div class="form-group">
-<label for="vlSalario">Valor do Salário</label>
-<input type="text" class="for-control">                
-</div>            
-<div class="form-group">
-<label for="vlHora">Valor da Hora </label>
+<label for="valorHora">Valor da Hora </label>
 <input type="text" class="for-control">                
 </div>
 <div class="form-group">
-<label for="qtdHoras">Horas Trabalhadas</label>
+<label for="horasTrabalhadas">Horas Trabalhadas</label>
 <input type="text" class="for-control">                
 </div>
 </form>

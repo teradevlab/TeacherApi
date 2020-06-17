@@ -25,9 +25,13 @@ class Horista extends People {
         $this->setValorHora($valorHora);
         $this->setHorasTrabalhadas($horasTrabalhadas);
         
-    }
+    }  
     
     public function calcularSalario(){
+        $salarioMensal= ($horasTrabalhadas * $valorHora);
+
+        echo "O salário hora é: " .$this->salarioMensal; 
+        
         
 
 
