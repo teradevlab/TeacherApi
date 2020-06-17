@@ -3,7 +3,7 @@
 class Assalariado extends Pessoa {
     private $salario; 
 
-    public function setSalario(){
+    public function setSalario($salario){
         $this->salario = $salario; 
     }
 
@@ -11,10 +11,11 @@ class Assalariado extends Pessoa {
         return $this->salario;
     }
 
-    public function __construct()
+    public function __construct($salario)
     {
         $this->setSalario($salario);       
     }
         
 
 }
+?>

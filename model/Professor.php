@@ -15,7 +15,7 @@ class People {
         return $this->id; 
     }
 
-    public function setNome(){
+    public function setNome($nome){
         $this->nome = $nome;    
     }
 
@@ -23,23 +23,23 @@ class People {
         return $this->nome;
     }
 
-    public function setIdade(){
+    public function setIdade($idade){
         $this->idade = $idade;
     }
 
     public function getIdade(){
-        return-> $this-> $idade;
+        return$this->idade;
     }
 
-    public function setMatricula(){
+    public function setMatricula($matricula){
         $this->matricula = $matricula;
     }
 
     public function getMatricula(){
-        return $this-> $matricula;
+        return $this->matricula;
     }
 
-    public function __($id, $name, $idade, $matricula)
+    public function __construct($id, $name, $idade, $matricula)
         {
         $this->setId($id);
         $this->setNome($name);
@@ -48,3 +48,4 @@ class People {
         }
 
 }
+?>

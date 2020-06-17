@@ -4,7 +4,7 @@ class Horista extends People {
     private $valorHora; 
     private $horasTrabalhadas;
 
-    public function setValorHora(){
+    public function setValorHora($valorHora){
         $this->valorHora = $valorHora;
     }
 
@@ -12,7 +12,7 @@ class Horista extends People {
         return $this->valorHora;
     }
 
-    public function setHorasTrabalhadas(){
+    public function setHorasTrabalhadas($horasTrabalhadas){
         $this->horasTrabalhadas = $horasTrabalhadas;         
     }
 
@@ -20,12 +20,12 @@ class Horista extends People {
         return $this->horasTrabalhadas;
     }
 
-    public function __construct()
+    public function __construct($valorHora, $horasTrabalhadas)
     {
         $this->setValorHora($valorHora);
         $this->setHorasTrabalhadas($horasTrabalhadas);
     }
-
-    public function 
+    
     
 }
+?>
