@@ -1,10 +1,20 @@
 <?php 
 
 class People {
+
     private $id;
     private $nome;
     private $idade; 
     private $matricula;
+
+    
+    public function Professor ($id, $name, $idade, $matricula)
+        {
+        $this->setId($id);
+        $this->setNome($name);
+        $this->setIdade($idade); 
+        $this->setMatricula($matricula);
+        }
 
 
     public function setId($id) {
@@ -39,13 +49,10 @@ class People {
         return $this->matricula;
     }
 
-    public function __construct($id, $name, $idade, $matricula)
-        {
-        $this->setId($id);
-        $this->setNome($name);
-        $this->setIdade($idade); 
-        $this->setMatricula($matricula);
-        }
+    $professor = new Professor(10, "João", "38", 1020304050);
+    var_dump();
+
+    
 
 }
 ?>

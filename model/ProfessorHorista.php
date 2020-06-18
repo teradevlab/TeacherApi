@@ -4,6 +4,7 @@ class Horista extends People {
     private $valorHora; 
     private $horasTrabalhadas;
 
+
     public function setValorHora($valorHora){
         $this->valorHora = $valorHora;
     }
